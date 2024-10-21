@@ -41,18 +41,14 @@ img{
    box-shadow: 0.8rem 0.8rem 0rem var(--clr-black);
    transition: box-shadow 0.3s ease-in-out;
 }
-.card .card-image{
+.card-image{
     width: 100%;
     height: 20rem;
 }
-.card .card-image img{
+.card-image img{
     border-radius: 1rem;
 }
-
-.card .card-detalhes{
-    
-}
-.card .card-detalhes span{
+.card-detalhes span{
     display: block;
     padding: 5px;
     background-color: var(--clr-yellow);
@@ -62,30 +58,35 @@ img{
     font-size: 1.3rem;
     border-radius: 5px;
 }
-.card .card-detalhes h5{
+.card-detalhes h5{
     margin: 15px 0;
     color: var(--clr-black);
     font-size: 13px;
     font-weight: 600;
 }
-.card .card-detalhes h2{
+.card-detalhes h2{
+    cursor: pointer;
     margin-bottom: 15px;
 }
-.card .card-detalhes p{
+.card-detalhes h2:hover{
+    color: var(--clr-yellow);
+}
+.card-detalhes p{
     color: var(--clr-gray);
     line-height: 1.5;
     font-size: 1.4rem;
     margin-bottom: 2.8rem;
 
 }
-.card .author{
+
+.author{
     display: flex;
     align-items: center;
     gap: 1.5rem;
 }
-.card .author .image-author{
+.author .image-author{
     width: 3rem;
 }
-.card .author h3{
+.author h3{
     font-size: 1.4rem;
 }
